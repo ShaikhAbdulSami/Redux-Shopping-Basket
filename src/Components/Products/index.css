@@ -1,0 +1,31 @@
+.image{
+    height: 300px;
+    width: 300px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.add-button{
+    padding: 5px 15px;
+    border: none;
+    background-color: lightgrey;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.prod-name{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+@media(max-width:700px){
+    .container{
+        justify-content: center;
+    }
+    }
+  
